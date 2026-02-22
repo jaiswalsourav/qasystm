@@ -1,0 +1,12 @@
+llama-index
+google-generativeai
+//llama-index-llms-gemini
+llama-index-llms-google-genai
+
+pypdf
+python-dotenv
+Ipython
+//llama-index-embeddings-gemini 
+streamlit
+
+llama-index-embeddings-google-genai
