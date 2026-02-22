@@ -1,0 +1,31 @@
+[2026-02-22 16:56:17,629] 12 venv - INFO - GOOGLE_API_KEY loaded successfully
+[2026-02-22 16:58:03,862] 12 venv - INFO - GOOGLE_API_KEY loaded successfully
+[2026-02-22 16:58:03,862] 13 venv - INFO - AIzaSyBh_z0VHsVapMZBE1BVnN7Tm58AwjXtbmI
+[2026-02-22 17:04:08,619] 12 venv - INFO - GOOGLE_API_KEY loaded successfully
+[2026-02-22 17:04:08,623] 13 venv - INFO - AIzaSyBh_z0VHsVapMZBE1BVnN7Tm58AwjXtbmI
+[2026-02-22 17:04:20,463] 17 root - INFO - data loading started...
+[2026-02-22 17:04:24,110] 20 root - INFO - data loading completed...
+[2026-02-22 17:04:26,272] 1025 httpx - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash "HTTP/1.1 200 OK"
+[2026-02-22 17:04:26,278] 22 root - INFO - Initializing Gemini Embedding model
+[2026-02-22 17:04:28,080] 24 root - INFO - model_name='text-embedding-004' embed_batch_size=10 callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x0000028D84101450> num_workers=None embeddings_cache=None embedding_config=None retries=3 timeout=60 retry_min_seconds=1.0 retry_max_seconds=60.0 retry_exponential_base=2.0
+[2026-02-22 17:04:28,708] 29 root - INFO - vectoer store index is being created
+[2026-02-22 17:04:30,305] 1025 httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 404 Not Found"
+[2026-02-22 17:13:27,379] 17 root - INFO - data loading started...
+[2026-02-22 17:13:27,392] 20 root - INFO - data loading completed...
+[2026-02-22 17:13:29,361] 1025 httpx - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash "HTTP/1.1 200 OK"
+[2026-02-22 17:13:29,361] 22 root - INFO - Initializing Gemini Embedding model
+[2026-02-22 17:13:31,178] 24 root - INFO - model_name='text-embedding-004' embed_batch_size=10 callback_manager=<llama_index.core.callbacks.base.CallbackManager object at 0x0000028DEC988710> num_workers=None embeddings_cache=None embedding_config=None retries=3 timeout=60 retry_min_seconds=1.0 retry_max_seconds=60.0 retry_exponential_base=2.0
+[2026-02-22 17:13:31,178] 29 root - INFO - vectoer store index is being created
+[2026-02-22 17:13:31,479] 1025 httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:batchEmbedContents "HTTP/1.1 404 Not Found"
+[2026-02-22 20:49:35,935] 12 venv - INFO - GOOGLE_API_KEY loaded successfully
+[2026-02-22 20:49:35,935] 13 venv - INFO - AIzaSyBh_z0VHsVapMZBE1BVnN7Tm58AwjXtbmI
+[2026-02-22 20:49:40,534] 17 root - INFO - data loading started...
+[2026-02-22 20:49:40,537] 20 root - INFO - data loading completed...
+[2026-02-22 20:49:42,510] 1025 httpx - INFO - HTTP Request: GET https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash "HTTP/1.1 200 OK"
+[2026-02-22 20:49:42,510] 16 root - INFO - Initializing Gemini Embedding model
+[2026-02-22 20:49:44,176] 30 root - INFO - Vector store index is being created
+[2026-02-22 20:49:45,923] 1025 httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+[2026-02-22 20:49:46,408] 37 root - INFO - Index persisted successfully.
+[2026-02-22 20:49:46,912] 1025 httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+[2026-02-22 20:49:46,952] 5613 google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+[2026-02-22 20:49:48,784] 1025 httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
